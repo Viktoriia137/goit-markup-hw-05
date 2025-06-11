@@ -443,14 +443,24 @@
         </div>
 
         <div class="footer-form-cont">
+          <p class="form-text">Subscribe</p>
           <form class="footer-form">
-            <label class="footer-label" for="subscribe">Subscribe</label>
-            <input
-              class="footer-form-input"
-              name="subscribe"
-              id="subscribe"
-              type="email"
-            />
+            <label aria-label="footer email">
+              <input
+                class="footer-form-input"
+                name="subscribe"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <div class="footer-btn-cont">
+              <button class="footer-form-btn" type="submit">
+                Subscribe
+                <svg class="icon-send" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
